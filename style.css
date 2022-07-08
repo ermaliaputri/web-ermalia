@@ -1,0 +1,71 @@
+header{
+    padding:0;
+    margin:0;
+    font-family: comic-series;
+    background-color: RGBA( 98, 98, 98, 1 );
+}
+header h1 {
+    float: left;
+    padding:5px 0;
+    color: white;
+}
+header ul {
+    float: left;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding:25px 20px;
+    display: inline-block;
+}
+header ul li a:hover {
+    background-color: RGBA( 105, 105, 105, 1 );
+    color: rgb(255, 255, 255);
+}
+.active {
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.container {
+    width:80%;
+    margin:0 auto;
+}
+.container:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+section {
+    padding:50px 0;
+    text-align: center;
+    color: white;
+}
+img {
+    width: 400px;
+    height: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.service {
+    padding-bottom: 100px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+body {
+    background-color: rosybrown;
+}
+pre {
+    text-align: left;
+    font-family: cursive;
+    color: white;
+    font-size: 18px;
+}
+
